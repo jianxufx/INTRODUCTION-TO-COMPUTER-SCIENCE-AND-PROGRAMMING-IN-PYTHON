@@ -19,7 +19,7 @@ if g<0:
     print('negetive numbers are not allowed')
     exit()
 
-#the two nubers are not close enough 
+#the two numbers are not close enough 
 while abs(g*g-num)>=0.01:
     g=(g+num/g)/2
 
